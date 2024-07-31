@@ -59,7 +59,7 @@
   -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
   require('lspconfig')['clangd'].setup {
     capabilities = capabilities,
-    filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto", "js" },
+    filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
     cmd = {"clangd", "--enable-config"}
   }
   require('lspconfig')['tsserver'].setup {
