@@ -65,3 +65,10 @@
   require('lspconfig')['tsserver'].setup {
     capabilities = capabilities
   }
+
+require'lspconfig'.pyright.setup{
+    capabilities = capabilities,
+     filetypes = { "python" },
+     cmd = {"pyright-langserver", "--stdio"}
+ }
+

@@ -64,7 +64,7 @@ require("lazy").setup({
     -- Undo Tree
     {'mbbill/undotree'},
     {'akinsho/toggleterm.nvim'},
-   -- {'nvim-tree/nvim-tree.lua'}, Super slow for some reason
+    {'nvim-tree/nvim-tree.lua'}, --Super slow for some reason
     -- CMD and LSP
     --{"williamboman/mason.nvim"},
     --{"williamboman/mason-lspconfig.nvim"},
